@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic');
+
+.container
+{
+    position: relative;
+    margin-top: 95px;
+}
+
+.left_container
+{
+    float: left; 
+    width: 330px; 
+    margin-left: 350px;
+}
+
+.my_image
+{
+    width: 330px;
+    height: 350px;
+    border-radius: 3px;
+    margin-bottom: 43px;
+}
+
+.list
+{
+    font-family: 'Georgia';
+    font-size: 19px;
+    color: rgb(85, 85, 85);
+    line-height: 1.895;
+    
+    margin-top: 13px;
+    margin-bottom: 40px;
+    padding-left: 22px;
+}
+
+.film_serial
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: rgb(21, 169, 140);
+    line-height: 1.333;
+    font-weight: 600;
+    
+}
+
+.right_container
+{
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 740px; 
+}
+
+.image_quote
+{
+    padding-top: 50px;
+    margin-bottom: -19px;
+}
+
+.quote
+{
+    font-family: 'Georgia';
+    font-size: 28px;
+    color: rgb(132, 132, 132);
+    line-height: 40px;
+    font-style: italic;
+
+    margin-bottom: 5px;
+    padding-left: 60px;
+}
+
+.qoute_author_name
+{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 38px;
+    font-weight: bold;
+
+    padding-left: 63px;
+}
+
+.my_name
+{
+    font-family: 'Open Sans'; 
+    font-size: 48px; 
+    color: #333333;
+    line-height: 0.875; 
+    font-weight: bold; 
+
+    margin-top: 150px;
+}
+
+.rectangle
+{
+    margin-top: 32px;
+}
+
+.text
+{
+    font-family: 'Georgia';
+    font-size: 19px;
+    color: rgb(85, 85, 85);
+    line-height: 32px;
+    
+    margin-top: 40px;
+}
+
+.hobby
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #333333;
+    line-height: 1.167;
+    font-weight: normal;
+    
+    margin-top: 42px;
+    margin-bottom: -25px;
+}
+
+.vk
+{
+    margin-top: 42px;
+    margin-bottom: 50px;
+}
+
+.my_vk
+{
+    font-family: 'Georgia';
+    font-size: 19px;
+    color: rgb(21,169,139);
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.link
+{
+    font-family: 'Georgia';
+    color: rgb(21,169,139);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
