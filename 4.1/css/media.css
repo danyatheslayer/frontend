@@ -1,0 +1,246 @@
+@media screen and (max-width: 1300px)
+{
+    .films
+    {
+        max-width: 1000px;
+    }
+    
+    .favorite_film
+    {
+        text-align: center;
+    }
+    
+    .film_block,
+    .it
+    {
+        width: 450px;
+        max-width: 50%;
+        margin: 0 auto 50px;
+    }
+    
+    .film_image
+    {
+        max-width: 450px;
+        height: 300px;
+    }
+    
+    .button
+    {
+        padding: 20px 60px;
+        background-color: rgb(21, 169, 140);
+    }
+}
+
+@media screen and (max-width: 1050px)
+{
+    .films
+    {
+        max-width: 800px;
+    }
+    
+    .film_block,
+    .it
+    {
+        width: 800px;
+        min-width: 80%;
+        margin: 0 auto 50px;
+    }
+    
+    .film_image,
+    .film_name,
+    .film_text
+    {
+        height: auto;
+        max-width: 800px;
+    }
+    
+    .film_name
+    {
+        text-align: center;
+    }
+    
+    .left_container
+    {
+        max-width: 700px;
+        margin: 0 auto;
+        width: 100%; 
+    }
+    
+    .quote
+    {
+        margin: 0;
+        text-align: center;
+        color: black;
+        font-size: 32px;
+    }
+    
+     .qoute_author_name
+    {
+        color: black;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .lovely_serials
+    {
+        margin: 0;
+        max-width: 250px;
+        width: 100%;
+        float: right;
+    }
+    
+    .lovely_films
+    {
+        float: left;
+        max-width: 250px;
+    }
+    
+    .photo
+    {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .my_photo
+    {
+       margin-top: -200px;
+       height: auto;
+    }
+    
+    .film_serial,
+    .list
+    {
+        text-align: center;
+        list-style-type: none;
+    }
+
+    .contact
+    {
+        width: 90%;
+        height: auto;
+    }
+    
+    .quotes
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .right_container,
+    .information_about_me,
+    .my_hobby
+    {
+        max-width: 990px;
+        margin: 16px auto;
+        width: 100%;
+    }
+    
+    .container
+    {
+        max-width: 700px;
+        width: 95%;
+        margin: 32px auto;
+    }
+    
+    .text
+    {
+        width: 100%;
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 750px)
+{
+    .form_line_right,
+    .form_line_left
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 580px)
+{
+    .left_container
+    {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    
+    .lovely_films,
+    .lovely_serials
+    {
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .list
+    {
+        width: 80%;
+    }
+
+    .notice_me
+    {
+        width: 96%;
+    }
+    
+    .menu_list
+    {
+        position: absolute;
+        display: none;
+        background: #fff;
+    }
+    
+    .menu_list a
+    {
+        float: none;
+        display: block;
+    }
+    
+    .hamburger_button
+    {
+        display: inline-block;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 455px)
+{
+    .copy_right
+    {
+        text-align: none;
+    }
+}
+
+@media screen and (max-width: 385px)
+{
+    .my_name
+    {
+        font-size: 40px;
+    }
+    
+    .quote
+    {
+        font-size: 27px;
+    }
+    
+    .qoute_author_name
+    {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .favorite_film
+    {
+        font-size: 30px;
+    }
+    
+    .all_film
+    {
+        width: 100%;
+    }
+}
