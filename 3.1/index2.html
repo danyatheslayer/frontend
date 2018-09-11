@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
+        <meta charset="utf-8">
         <title>My first webpage</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
@@ -12,10 +13,10 @@
         <header class="navigation_bar">
             <div class="menu_buttons_position">
                 <nav>
-                    <div class="menu_list">
-                        <a href="#"><i class="fa fa-user"></i>Обо мне</a>
-                        <a href="#"><i class="fa fa-heart"></i>Мое хобби</a>
-                        <a href="#"><i class="fa fa-video-camera"></i>Любимые фильмы</a>
+                    <div class="menu">
+                        <a href="#" class="menu_list"><i class="fa fa-user menu_list_item"></i>Обо мне</a>
+                        <a href="#" class="menu_list"><i class="fa fa-heart menu_list_item"></i>Мое хобби</a>
+                        <a href="#" class="menu_list"><i class="fa fa-video-camera menu_list_item"></i>Любимые фильмы</a>
                     </div>
                 </nav>
             </div>
@@ -26,8 +27,10 @@
 
         <section class="main_content">
             <div class="container">
-                <div class="left_container">>
-                    <img src="images/me.png" alt="my photo" class="my_photo">
+                <div class="left_container">
+                    <div class="photo">
+                        <img src="images/me.png" alt="my photo" class="my_photo">
+                    </div>
                     <span class="film_serial">Любимые фильмы:</span>
                     <ul class="list">
                         <li>Таксист</li>
@@ -66,30 +69,38 @@
             <div class="films">
                 <h2 class="favorite_film">Любимые фильмы</h2>
                 <div class="film_block">
-                    <img src="images/red_sparrow.png" alt="red sparrow">
-                    <h3>Красный воробей</h3>
-                    <p>
+                    <div class="film_image">
+                        <img src="images/red_sparrow.png" alt="red sparrow" class="film_image_item">
+                    </div>
+                    <h3 class="film_title">Красный воробей</h3>
+                    <p class="film_text">
                         После вынужденного окончания карьеры из-за профессиональной травмы Доминика Егорова и ее мать сталкиваются с мрачным и неопределенным будущим. Героиня соглашается стать рекрутом в Школе Воробьев, секретной службе, которая обучает уникальных молодых людей использовать свое тело и ум в качестве опаснейшего оружия. После долгого садистского обучения девушка превращается в самого опасного Воробья за всю историю секретной службы. Теперь бывшая балерина должна примирить в себе человека, которым она была, и силу, которой она овладела, со своей собственной жизнью и жизнью всех, кто ей дорог. В том числе, американского агента ЦРУ, пытающегося убедить ее, что он единственный человек, которому она может доверять.
                     </p>
                 </div>
                 <div class="film_block">
-                    <img src="images/legend.png" alt="legend">
-                    <h3>Легенда</h3>
-                    <p>
+                    <div class="film_image">
+                        <img src="images/legend.png" alt="legend" class="film_image_item">
+                    </div>
+                    <h3 class="film_title">Легенда</h3>
+                    <p class="film_text">
                         Фильм расскажет историю близнецов Реджи и Ронни Крэй, культовых фигур преступного мира Великобритании 1960-х. Братья возглавляли самую влиятельную бандитскую группировку Ист-Энда. В их послужном списке: вооруженные грабежи, рэкет, поджоги, покушения, убийства и собственный ночной клуб, куда доезжали даже голливудские знаменитости. Среди их жертв — криминальные авторитеты Джек МакВитти и Джордж Корнелл.
                     </p>
                 </div>
                 <div class="film_block">
-                    <img src="images/american_gangster.png" alt="american gangster">
-                    <h3>Гангстер</h3>
-                    <p>
+                    <div class="film_image">
+                        <img src="images/american_gangster.png" alt="american gangster" class="film_image_item">
+                    </div>
+                    <h3 class="film_title">Гангстер</h3>
+                    <p class="film_text">
                         После смерти хозяина, Фрэнк Лукас, тихий водитель гарлемского преступного авторитета, решает создать собственную криминальную империю. Его специальность — героин, который он ввозит напрямую из Юго-Восточной Азии. Лукас считает себя бизнесменом и конкурирует с другими группировками по всем правилам рыночной экономики, предлагая более качественный продукт по более низкой цене. Зарабатывая миллион долларов в день и придерживаясь однажды установленных для себя правил игры, он становится идолом для всего Гарлема, но по следам Фрэнка уже идёт Ричи Робертс — редкий для Нью-Йорка образец честного полицейского, ненавидимого коллегами.
                     </p>
                 </div>
                 <div class="film_block">
-                    <img src="images/taxi_driver.png" alt="taxi driver">
-                    <h3>Таксист</h3>
-                    <p>
+                    <div class="film_image">
+                        <img src="images/taxi_driver.png" alt="taxi driver" class="film_image_item">
+                    </div>
+                    <h3 class="film_title">Таксист</h3>
+                    <p class="film_text">
                         Тусклый свет слепых фонарей, скелеты фабричных труб, задыхающихся в собственном дыму. Вавилонские башни небоскребов, все это — ад Нового времени, Нью-Йорк. Ветеран вьетнамской войны Трэйвис Бикл ведет свое одинокое такси по ночным улицам бесконечного города, и перед ним разворачивается мрачная панорама человеческих грехов. Как ветхозаветный пророк, он надеется, что однажды небеса пошлют на землю спасительный дождь, который очистит Нью-Йорк от вековой грязи. А когда умирает надежда, остается только ненависть. Огненный ливень обрушится на головы грешников. Таксист позаботится об этом.
                     </p>
                 </div>
@@ -97,7 +108,8 @@
             </div>
 
             <div class="all_film">
-                <a href="https://www.kinopoisk.ru/user/15085659/votes/" class="button">Все фильмы</a>
+                <a
+                href="https://www.kinopoisk.ru/user/15085659/votes/" class="button">Все фильмы</a>
             </div>
             <div class="clearfix"></div>
         </section>

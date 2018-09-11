@@ -206,21 +206,17 @@
     }
 }
 
-@media screen and (max-width: 455px)
-{
-    .copy_right
-    {
-        text-align: none;
-    }
-}
-
-@media screen and (max-width: 385px)
+@media screen and (max-width: 437px)
 {
     .my_name
     {
-        font-size: 40px;
+        font-size: 35px;
     }
-    
+}
+
+
+@media screen and (max-width: 385px)
+{
     .quote
     {
         font-size: 27px;
